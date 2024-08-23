@@ -18,4 +18,4 @@
    Вы можете клонировать репозиторий или просто скачать ZIP-архив с файлами проекта.
 
    ```bash
-   git clone https://github.com/ваш-аккаунт/ваш-репозиторий.git
+   git clone https://github.com/axxcel/test.git
