@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title>Тестовое задание</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header container">
+				<div class="header__menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><button id="btn__desc" class="menu__link menu__link--active" onclick="showPage('desc', 'btn__desc')">Описание</button></li>
+							<li class="menu__item"><button id="btn__review" class="menu__link" onclick="showPage('reviews', 'btn__review')">Отзывы</button></li>
+							<li class="menu__item"><button id="btn__where" class="menu__link" onclick="showPage('where', 'btn__where')">Откуда?</button></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="block__desc container page active" id="desc">
+				<div class="block__info">
+					<div class="block__info__content">
+						<div class="block__text">
+							Томаты на ветке красные (помидоры) - более плотные, яркие и ароматные по сравнению с обычными. Они славятся низкой калорийностью и высоким содержанием витаминов, клетчатки, пектина и минеральных веществ. В них содержатся также каротиноиды, кислоты и мощный антиоксидант ликопин.<br><br>Помидор - незаменимый продукт в мировой кулинарии. Он - основа многочисленных соусов, маринадов, кетчупа, испанского холодного супа Гаспачо или итальянской закуски Капрезе. С ним делают салаты, его тушат, солят и консервируют. Помидоры на веточке особенно красиво смотрятся в запеченном виде.
+						</div>
+					</div>
+				</div>
+				<div class="block__specific__contents">
+					<div class="block__specific">
+						<h1 class="block__specific__title">Характеристики</h1>	
+						<div class="block__specific__row">
+							<p class="block__specific__text">Страна</p>
+							<p class="block__specific__text">Россия</p>
+						</div>
+							<div class="block__specific__row">
+							<p class="block__specific__text">Поставщик</p>
+							<p class="block__specific__text">Фермеры: Наталья и Юрий Лейшан</p>
+						</div>
+						<div class="block__specific__row">
+							<p class="block__specific__text">Тип упаковки</p>
+							<p class="block__specific__text">Крафтовый пакет</p>
+						</div>
+						<div class="block__specific__row">
+							<p class="block__specific__text">Сертификаты качества</p>
+							<p class="block__specific__text">В наличии</p>
+						</div>
+					</div>
+					<div class="block__specific">
+						<h1 class="block__specific__title">Пищевая ценность на 100г</h1>	
+						<div class="block__specific__row">
+							<p class="block__specific__text">Энергетическая ценность</p>
+							<p class="block__specific__text">18 кКал</p>
+						</div>
+							<div class="block__specific__row">
+							<p class="block__specific__text">Белки</p>
+							<p class="block__specific__text">0.9 г</p>
+						</div>
+						<div class="block__specific__row">
+							<p class="block__specific__text">Жиры</p>
+							<p class="block__specific__text">0.2 г</p>
+						</div>
+						<div class="block__specific__row">
+							<p class="block__specific__text">Углеводы</p>
+							<p class="block__specific__text">3.9 г</p>
+						</div>
+					</div>
+					<div class="block__specific">
+						<h1 class="block__specific__title">Условия хранения</h1>	
+						<div class="block__specific__row">
+							<p class="block__specific__text">Срок хранения</p>
+							<p class="block__specific__text">7 дней</p>
+						</div>
+							<div class="block__specific__row">
+							<p class="block__specific__text">Температура хранения</p>
+							<p class="block__specific__text">от 3 ° до 7 °</p>
+						</div>
+					</div>
+				</div>
+				<div class="block__additionally">
+					<div class="additionally__content">
+						<h1 class="additionally__title">С этим товаром покупают</h1>
+						<div class="additionally__slider">
+							<swiper-container init="false">
+								<swiper-slide>
+									<a href="" class="card__slider__link">
+										<div class="card__slider">
+											<div class="slider__img">
+												<img src="./img/milk.png" alt="">
+											</div>
+											<div class="slider__text">
+												<h2 class="slider__text__title">Молоко 3,2 %</h2>
+												<p class="slider__text__subtitle">от Вадима Рошки</p>
+												<h2 class="price__text">95 ₽<span> / 0,93 л</span></h2>
+												<div class="slider__stars">
+													<img src="./img/stars.png" alt="">
+												</div>
+											</div>
+											<a href="" class="card__heart">
+												<img src="./img/heart.png" alt="">
+											</a>
+											<div class="price__cart">
+												<img src="./img/shopping-cart.png" alt="">
+											</div>
+										</div>
+									</a>
+								</swiper-slide>
+								<swiper-slide>
+									<a href="" class="card__slider__link">
+										<div class="card__slider">
+											<div class="slider__img">
+												<img src="./img/bread.png" alt="">
+											</div>
+											<div class="slider__text">
+												<h2 class="slider__text__title">Хлеб пшеничный</h2>
+												<p class="slider__text__subtitle">от Дарьи и Марии</p>
+												<h2 class="price__text">95 ₽<span> / 0,930 г</span></h2>
+												<div class="slider__stars">
+													<img src="./img/stars.png" alt="">
+												</div>
+											</div>
+											<a href="" class="card__heart">
+												<img src="./img/heart.png" alt="">
+											</a>
+											<div class="price__cart">
+												<img src="./img/shopping-cart.png" alt="">
+											</div>
+										</div>
+									</a>
+								</swiper-slide>
+								<swiper-slide>
+									<a href="" class="card__slider__link">
+										<div class="card__slider">
+											<div class="slider__img">
+												<img src="./img/egg.png" alt="">
+											</div>
+											<div class="slider__text">
+												<h2 class="slider__text__title">Яйца куриные</h2>
+												<p class="slider__text__subtitle">от Евгения Рошаль</p>
+												<h2 class="price__text">120 ₽<span> / 10 шт </span></h2>
+												<div class="slider__stars">
+													<img src="./img/stars.png" alt="">
+												</div>
+											</div>
+											<a href="" class="card__heart">
+												<img src="./img/heart.png" alt="">
+											</a>
+											<div class="price__cart">
+												<img src="./img/shopping-cart.png" alt="">
+											</div>
+										</div>
+									</a>
+								</swiper-slide>
+								<swiper-slide>
+									<a href="" class="card__slider__link">
+										<div class="card__slider">
+											<div class="slider__img">
+												<img src="./img/butter.png" alt="">
+											</div>
+											<div class="slider__text">
+												<h2 class="slider__text__title">Масло сливочное 82 %</h2>
+												<p class="slider__text__subtitle">от Вадима Рошки</p>
+												<h2 class="price__text">290 ₽<span> / 250 г </span></h2>
+												<div class="slider__stars">
+													<img src="./img/stars.png" alt="">
+												</div>
+											</div>
+											<a href="" class="card__heart">
+												<img src="./img/heart.png" alt="">
+											</a>
+											<div class="price__cart">
+												<img src="./img/shopping-cart.png" alt="">
+											</div>
+										</div>
+									</a>
+								</swiper-slide>
+							  </swiper-container>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="block__reviews page container" id="reviews">
+				<div class="reviews__content">
+					<p class="reviews__text">Помогите нам стать ещё лучше. Оставляя отзывы, вы таким образом указываете нам на зоны роста. Мы правда, читаем все отзывы.</p>
+					<button class="reviews__btn">Оставитить отзыв</button>
+				</div>
+			</section>
+			<section class="block__where page container" id="where">
+				<div class="where__contents">
+					<div class="where__text">
+						<p class="where__text__subtitle">Томаты на ветке красные (помидоры) - более плотные, яркие и ароматные по сравнению с обычными. Они славятся низкой калорийностью и высоким содержанием витаминов, клетчатки, пектина и минеральных веществ. В них содержатся также каротиноиды, кислоты и мощный антиоксидант ликопин.<br><br>Помидор - незаменимый продукт в мировой кулинарии. Он - основа многочисленных соусов, маринадов, кетчупа, испанского холодного супа Гаспачо или итальянской закуски Капрезе.</p>
+					</div>
+					<div class="where__info">
+						<div class="info__content">
+							<img src="./img/owner.png" alt="" class="info__image">
+							<div class="info__btns">
+								<button class="info__certificate info__btn">Сертификаты</button>
+								<button class="info__owner info__btn">О поставщике</button>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+	<script src="js/slider.js"></script>
+	<script src="js/navigation.js"></script>
+</body>
+</html>
